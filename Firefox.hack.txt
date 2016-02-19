@@ -1,0 +1,8 @@
+.divh96{
+  clear:both;
+  height:96px;
+}
+/*firefox*/
+@-moz-document url-prefix(){ 
+  .divh96{height:90px;}
+}
